@@ -15,17 +15,12 @@ table:last-child {
 }
 
 tr {
-  border-bottom: 2px solid rgb(240,188,58);
+  border-bottom: 1px solid rgb(240,188,58);
 }
 
 tr:nth-child(odd) {
   background-color: rgb(255,247,233);
 }
-
-/* tr:nth-child(1) {
-  border-top: 1px solid rgb(240,188,58);
-  border-radius: 5px 5px 0 0;
-} */
 
 tr:hover {
   background-color: rgb(251,223,153);
@@ -39,6 +34,14 @@ th, td {
 
 th {
   background-color: rgb(240,188,58);
+}
+
+th#left {
+  border-radius: 5px 0 0 0;
+}
+
+th#right {
+  border-radius: 0 5px 0 0;
 }
 
 td {
