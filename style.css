@@ -7,7 +7,19 @@ body {
 
 table {
   width: 70vw;
-  border: 1px solid black;
+  border-collapse:collapse;
+}
+
+table:last-child {
+  border-bottom: 6px solid rgb(240,188,58);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(255,247,233);
+}
+
+tr:hover {
+  background-color: rgb(251,223,153);
 }
 
 th, td {
@@ -19,10 +31,6 @@ th {
   background-color: rgb(240,188,58);
 }
 
-td {
+tr {
   border-bottom: 2px solid rgb(240,188,58);
-}
-
-tr:hover {
-  background-color: rgb(251,223,153);
 }
